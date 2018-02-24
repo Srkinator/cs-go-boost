@@ -1,0 +1,129 @@
+/*==========  Non-Mobile First Method  ==========*/
+	
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1450px) {
+		.menu-active {
+		  left: 80% !important;
+		}
+    }
+
+    @media only screen and (max-width : 1200px) {
+		.menu-active {
+		  left: 70% !important;
+		}
+		#our-clients li.each-client{
+			width: 33.33% !important;
+		}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+    	.menu-active {
+		  left: 65% !important;
+		}
+		.caption .main-title{
+			font-size: 60px !important;
+			margin-bottom: 15px !important;
+		}
+		.caption .sub-title{
+			font-size: 30px !important;
+			margin-bottom: 50px !important; 
+		}
+		.home-slider .slider-button{
+			font-size: 14px !important;
+		}
+		.feature-item{
+			margin-bottom: 30px;
+		}
+		#expertise .col-xs-height {
+			display: block;
+		}
+		#expertise .content-part{
+			display: none;  	
+		}
+		#expertise .info-part{
+			padding-right: 15px !important;
+		}
+		#blog-details .social-icon{
+			text-align: left;
+		}
+    }	
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		.logo-left{
+    		left: 50px !important;
+    	}
+    	.menu-button{
+    		left: 85% !important;
+    	}
+    	.menu-active {
+		  	left: 55% !important;
+		}
+		.caption .main-title{
+			font-size: 40px !important;
+			margin-bottom: 10px !important;
+		}
+		.caption .sub-title{
+			font-size: 20px !important;
+			margin-bottom: 30px !important; 
+		}
+		#our-clients li.each-client{
+			width: 50% !important;
+		}
+    	#features .header-content .title{
+    		margin-bottom: 30px;
+    	}
+		.isotope .isotope-item{
+			width: 100%;
+		}
+		.achievment-item .content .caption{
+			width: 100%;
+		}
+		#count-down .counter-content .each-counter{
+			margin-bottom: 30px;
+		}
+		.team-member .content{
+			margin-bottom: 30px;
+		}
+		#latest-blog .each-post{
+			margin-bottom: 50px;
+		}
+		#client-feedback .custom-control #slider-prev{
+			left: 20px !important;
+		}
+		#client-feedback .custom-control #slider-next{
+			right: 20px !important;
+		}
+		.comments-form form input,
+		.comments-form form textarea{
+			margin-bottom: 20px;
+		}
+		#footer .bottom-part .left-part{
+			margin-bottom: 30px;
+		}
+    }
+	
+	/*other Devices*/
+	 @media only screen and (max-width : 600px) {
+    	.menu-active {
+		  	left: 45% !important;
+		}
+		#our-clients li.each-client{
+			width: 100% !important;
+		}
+	}
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+    	.logo-left{
+    		left: 20px !important;
+    	}
+		.menu-active {
+		  left: 30% !important;
+		}
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
