@@ -167,7 +167,6 @@ totalPrice = (price1, price2) => {
 
 displaySelectedBoost=(e)=>{
     selectedType =e.target;
-    hasClass = e.target.getAttribute('class');
     if(selectedType.innerHTML === 'ESEA RANK BOOSTING'){
         selectedType.setAttribute('class', 'col-sm-6 selected-boost-type color faceit-level-selector');
         document.querySelector('.faceit-elo-selector').setAttribute('class', 'col-sm-6 selected-boost-type faceit-level-selector');
